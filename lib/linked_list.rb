@@ -1,6 +1,6 @@
 
 class LinkedList
-  attr_reader :size
+  attr_reader :head, :tail, :size
 
   def initialize
     @head = nil
