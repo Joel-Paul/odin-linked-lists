@@ -12,4 +12,4 @@ list.append('turtle')
 # puts list
 # => ( dog ) -> ( cat ) -> ( parrot ) -> ( hamster ) -> ( snake ) -> ( turtle ) -> nil
 
-p list
+p list.at(5).value

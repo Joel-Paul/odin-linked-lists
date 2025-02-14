@@ -26,6 +26,14 @@ class LinkedList
 
     @size += 1
   end
+
+  def at(index)
+    node = @head
+    for _ in 0...index
+      node = node.next_node
+    end
+    node
+  end
 end
 
 class Node
