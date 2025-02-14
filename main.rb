@@ -11,3 +11,7 @@ list.append('turtle')
 
 puts list
 # => ( dog ) -> ( cat ) -> ( parrot ) -> ( hamster ) -> ( snake ) -> ( turtle ) -> nil
+
+list.insert_at('mouse', 6)
+puts list
+p list
