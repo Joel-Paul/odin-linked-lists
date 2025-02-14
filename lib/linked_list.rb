@@ -42,9 +42,7 @@ class LinkedList
     if new_tail == old_tail
       @head = nil
     else
-      until new_tail.next_node == old_tail
-        new_tail = new_tail.next_node
-      end
+      new_tail = at @size - 2
     end
 
     new_tail.next_node = nil
