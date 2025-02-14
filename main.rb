@@ -12,6 +12,6 @@ list.append('turtle')
 # puts list
 # => ( dog ) -> ( cat ) -> ( parrot ) -> ( hamster ) -> ( snake ) -> ( turtle ) -> nil
 
-p list.contains? 'turtle'
+p list.find 'turtle'
 p list.pop
-p list.contains? 'turtle'
+p list.find 'turtle'
