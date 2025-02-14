@@ -9,9 +9,5 @@ list.append('hamster')
 list.append('snake')
 list.append('turtle')
 
-# puts list
+puts list
 # => ( dog ) -> ( cat ) -> ( parrot ) -> ( hamster ) -> ( snake ) -> ( turtle ) -> nil
-
-p list.find 'turtle'
-p list.pop
-p list.find 'turtle'
